@@ -28,7 +28,7 @@ class recetas extends Module{
 	public function hookHeader( $params ){
 		global $smarty;
 		
-		return $this->display( __FILE__, 'recetario.tpl' );
+		return $this->display( __FILE__, 'menu.tpl' );
 	}
 	
 	public function hookTop($params){
